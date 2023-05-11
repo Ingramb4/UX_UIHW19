@@ -38,7 +38,7 @@
 
 <div>
     <heroimg>
-        <img class="one" id="p1" src="/Users/breanaingram/Desktop/UX_UIHW19/IMAGES/image 2.png" class="center" alt="About Me image" height="350" width="350">
+        <img class="one" id="p1" src="IMAGES/image 2.png" class="center" alt="About Me image" height="350" width="350">
         <br>
         <p class="two">I specialize in web design and I enjoy enhancing the users experience by creatively developing new design concepts and solving problems for the the average user.</p>
         
@@ -121,6 +121,16 @@
 </body>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
 <script src="js/index.js">
+
+$(document).ready(function(){
+    $("#p1").hover(function(){
+      alert("Welcome to my Portfolio!");
+    },
+    function(){
+      alert("Thank you so much for visiting!");
+    }); 
+  });
+
 </script>
 
 

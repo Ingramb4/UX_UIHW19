@@ -1,4 +1,5 @@
 console.log("Your index.js file is loaded correctly!");
+
 {
 $(document).ready(function(){
     $("#p1").hover(function(){
